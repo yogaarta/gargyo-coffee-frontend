@@ -1,0 +1,300 @@
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 120px;
+    padding: 0% 5%;
+    align-items: center;
+    /* background-color: antiquewhite; */
+}
+
+.coffeeshop-logo {
+    /* flex: 1; */
+
+    font-family: 'Rubik';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0B132A;
+}
+
+.nav-list {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mini-photo {
+    /* clip-path: circle(); */
+    /* border: 3px solid #6A4029;
+    border-radius: 50%; */
+    filter: drop-shadow(0px 6px 20px rgba(106, 64, 41, 0.8));
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: 100% 20%;
+}
+
+.main {
+    background-image: url(assets/images/profile\ background.jpg);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+
+.main-card {
+    display: flex;
+    background: #F8F8F8;
+    border-radius: 20px;
+    height: 951px;
+    width: 80%;
+    align-self: center;
+    padding: 50px 40px 50px 0px
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.profile-picture {
+    width: 185px;
+    height: 185px;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: 100% 20%;
+    /* clip-path: circle(); */
+}
+
+.profile-text {
+    margin: 15px
+}
+
+.profile-name {
+    text-align: center;
+    margin: 0px
+}
+
+.choose-button {
+    width: 207px;
+    height: 44px;
+    margin: 5px 0;
+
+    background: #FFBA33;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: center;
+    color: #6A4029;
+
+}
+
+.remove-button {
+    width: 207px;
+    height: 44px;
+    margin: 5px 0;
+
+    background: #6A4029;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.editpass-button {
+    width: 207px;
+    height: 60px;
+    margin-top: 30px;
+
+    background: #FFFFFF;
+    border: 1px solid #9F9F9F;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #6A4029;
+}
+
+.save-change-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    margin: 30px;
+
+    color: #6A4029;
+    /* 
+    border: 0.5px solid #FFFFFF;
+    text-shadow: 0px 6px 9px rgba(255, 255, 255, 0.21); */
+}
+
+.save-change-button {
+    width: 207px;
+    height: 60px;
+    margin: 10px 0;
+
+    background: #6A4029;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+
+.cancel-change-button {
+    width: 207px;
+    height: 60px;
+    margin: 10px 0;
+
+    background: #FFBA33;
+    ;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #6A4029;
+}
+
+.logout-button {
+    width: 207px;
+    height: 60px;
+    margin: 30px 0;
+
+    background: #FFFFFF;
+    border: 1px solid #9F9F9F;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #6A4029;
+}
+
+.form-card {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 20px 0px #00000038;
+    border-radius: 10px;
+    padding: 20px 20px 70px 30px
+}
+
+.form-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 38px;
+    margin: 10px 0px;
+
+    color: #4F5665;
+}
+
+.label-input {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px
+}
+
+label {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #9F9F9F;
+}
+
+input {
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #000000
+}
+
+input:active,
+input:focus {
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    outline: none;
+}
+
+input[type="text"] {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    /* or 250% */
+    color: #000000;
+}
+
+.input-left {
+    width: 250px;
+    margin-right: 50px;
+}
+
+.input-right {
+    width: 170px;
+}
