@@ -298,3 +298,18 @@ input[type="text"] {
 .input-right {
     width: 170px;
 }
+
+/* footer */
+footer {
+
+    background-color: #F8F8F8;
+}
+
+.footer-flex-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-flex-item{
+    flex: 1;
+}
