@@ -501,17 +501,6 @@ input[type="text"] {
     display: block;
 }
 
-
-/* Style the indicator (dot/circle) */
-/* .radio-container .checkmark:after {
-    top: 9px;
-    left: 9px;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: white;
-} */
-
 /* footer */
 footer {
     width: 100%;
@@ -532,7 +521,6 @@ footer {
 
 .footer-flex-item,
 .footer-flex-item-right {
-    /* flex: 1; */
     margin: 50px 0px;
     align-self: center;
     padding-left: 20px;
@@ -542,7 +530,6 @@ footer {
     font-weight: 500;
     font-size: 16px;
     line-height: 30px;
-    /* or 188% */
 
 
     color: #4F5665;
@@ -557,7 +544,6 @@ footer {
 }
 
 .footer-flex-item-right {
-    /* flex: 1; */
     width: 40%;
     display: flex;
     justify-content: center;
@@ -585,4 +571,63 @@ footer {
     line-height: 30px;
 
     color: #0B132A;
+}
+
+@media (max-width: 880px) {
+    .choose-button, .logout-button, .save-change-button, .cancel-change-button, .remove-button,
+    .editpass-button {
+        width: 80%
+    }
+
+    .profile-picture{
+        width: 150px;
+        height: 150px;
+    }
+
+    .form-row {
+        flex-direction: column;
+    }
+
+    .input-right{
+        width: 250px;
+    }
+}
+
+@media (max-width: 720px) {
+    .main-card{
+        flex-direction: column;
+        height: 100%;
+        padding: 5%;
+    }
+    .input-left, .input-right{
+        width: 80%;
+    }
+    .footer-flex-item-right{
+        flex-direction: column;
+    }
+    .coffeeshop-logo {
+        font-style: bold;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #0B132A;
+    }
+
+    .coffeeshop-footer-text {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .footer-list-item>p {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .footer-list-header {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+    }
 }

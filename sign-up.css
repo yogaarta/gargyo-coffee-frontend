@@ -290,3 +290,55 @@ footer {
 
     color: #0B132A;
 }
+
+
+@media(max-width: 720px) {
+    .global-container {
+        flex-direction: column;
+    }
+
+    aside {
+        background-image: url(assets/images/sign\ up\ aside\ img.jpg);
+        background-size: cover;
+        width: 100%;
+    }
+
+    .aside-pict{
+        width: 100%;
+        min-height: 180px;
+    }
+
+    .main-content {
+        max-width: 100%;
+    }
+
+    .coffeeshop-logo {
+        font-style: bold;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #0B132A;
+    }
+
+    .coffeeshop-footer-text {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .footer-list-item>p {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .footer-list-header {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .footer-list {
+        flex-direction: column;
+    }
+}
