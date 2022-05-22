@@ -5,30 +5,293 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- start gfonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;900&family=Rubik:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <!-- end gfonts -->
     <link rel="stylesheet" href="index.css">
     <title>Gargyo Coffee</title>
 </head>
 
 <body>
     <header>
-        <nav class="flex-container">
-            <div class="flex-container">
-                <a href="#home"><img src="assets/images/coffee logo.png" alt="logo"> Coffee Shop</a>
+        <nav class="custom-nav-container row">
+            <div class="col-3">
+                <h6 class="coffeeshop-logo"><img src="assets/images/coffee logo.png" alt="logo" style="width: 30px;">
+                    Coffee Shop</h6>
             </div>
-            <div class="flex-container">
-                <div>Home</div>
-                <div>Product</div>
-                <div>Your Cart</div>
-                <div>History</div>
+            <div class="custom-nav-list col-6">
+                <ul>
+                    <li><a href="" class="custom-active-nav">Home</a></li>
+                    <li><a href="" class="custom-inactive-nav ">Product</a></li>
+                    <li><a href="" class="custom-inactive-nav ">Your Cart</a></li>
+                    <li><a href="" class="custom-inactive-nav ">History</a></li>
+                </ul>
             </div>
-            <div class="flex-container">
-                <div>Login</div>
-                <div>Sign Up</div>
+            <div class="custom-nav-icon col-3 row">
+                <div class="col custom-login-button">Login</div>
+                <div class="col custom-signup-button">Sign Up</div>
             </div>
         </nav>
+        <div class="row custom-banner">
+            <div class="col custom-banner-left">
+                <h2>Start Your Day with Coffee and Good Meals</h2>
+                <p>We provide high quality beans, good taste, and healthy meals made by love just for you. Start your
+                    day with us for a bigger smile!</p>
+                <div class="custom-get-started-button">Get Started</div>
+            </div>
+            <div class="col custom-banner-right">
+                <div class="custom-search">
+                    <div class="custom-search-img"><img src="assets/images/magn glass homepage.png"
+                            style="width: 18px; height: 18px;" alt="search"></div>
+                    <form action="search">
+                        <input type="text" id="search" name="search" placeholder="Search">
+                    </form>
+                </div>
+            </div>
+        </div>
     </header>
+    <main>
+        <div class="custom-store-info row">
+            <div class="col row">
+                <div class="col custom-vector-container">
+                    <div class="custom-vector"><img src="assets/images/person vector.png" alt="person-vector" style="height: 18px;
+                        width: 16.8px;"></div>
+                </div>
+                <div class="col custom-store-info-text">
+                    <div class="custom-store-info-number">90+</div>
+                    <div class="custom-store-info-obj">Staff</div>
+                </div>
+            </div>
+            <div class="col row custom-store-info-box">
+                <div class="col custom-vector-container">
+                    <div class="custom-vector"><img src="assets/images/location Vector.png" alt="location-vector" style="height: 20px;
+                        width: 14px;"></div>
+                </div>
+                <div class="col custom-store-info-text">
+                    <div class="custom-store-info-number">30+</div>
+                    <div class="custom-store-info-obj">Stores</div>
+                </div>
+            </div>
+            <div class="col row">
+                <div class="col custom-vector-container">
+                    <div class="custom-vector"><img src="assets/images/love vector.png" alt="love-vector" style="height: 23px;
+                        width: 27px;"></div>
+                </div>
+                <div class="col custom-store-info-text">
+                    <div class="custom-store-info-number">800+</div>
+                    <div class="custom-store-info-obj">Customers</div>
+                </div>
+            </div>
+        </div>
+        <div class="custom-teamwork row">
+            <div class="custom-teamwork-left col"><img
+                    src="https://s3-alpha-sig.figma.com/img/8f54/38af/1614e4f251061e5ddda15a8106a888d0?Expires=1653868800&Signature=U0Fa1aJCLpx4Bnr1sclgCqltfE8NcBcr7qefWP2iw-lrcDFjcdPZX00g25LFo4cgHRoD9mLz67lV2vXmT~ryR1OzaCF8-6SKshQjqwVWHqe~XOwKGnccTvVim~xMqwq8FS9O~CdA5A~Al7zG42WNUxipy~rOok9LmVBOFx6H-oPC5D5UmIuLtgA560qWpwCgyPFn6z5ph856yZUYz-f-qJbCt~ZAOBp46h4jJq2mkEHioORm3Imm9NoSLFnQTtRbulOQJ4SAfLHX8QTfUL~4st254r89QlrdDXlQNWJntuTdUSRFfiEHnBUOyS6kNP54JxgJ80MCLKPhwMuBzu-~xw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                    alt="teamwork" style="width: 573px;"></div>
+            <div class="custom-teamwork-right col">
+                <h3 class="custom-teamwork-header">We Provide Good Coffee and Healthy Meals</h3>
+                <p class="custom-teamwork-paragraph">You can explore the menu that we provide with fun and have their
+                    own taste and make your day better.</p>
+                <p class="custom-teamwork-list"><img src="assets/images/Vectorcheck.png" alt="check"> High quality beans
+                </p>
+                <p class="custom-teamwork-list"><img src="assets/images/Vectorcheck.png" alt="check"> Healthy meals, you
+                    can request the ingredients</p>
+                <p class="custom-teamwork-list"><img src="assets/images/Vectorcheck.png" alt="check"> Chat with our
+                    staff to get better experience for ordering</p>
+                <p class="custom-teamwork-list"><img src="assets/images/Vectorcheck.png" alt="check"> Free member card
+                    with a minimum purchase of IDR 200.000.</p>
+            </div>
+        </div>
+        <div class="custom-favorite">
+            <div class="custom-favorite-title">Here is People's Favorite</div>
+            <div class="custom-favorite-paragraph">Let's choose and have a bit taste of poeple's favorite. It might be
+                yours too!</div>
+            <div class="custom-favorite-menu row">
+                <div class="custom-favorite-menu-card col">
+                    <div class="custom-favorite-picture"><img
+                            src="https://s3-alpha-sig.figma.com/img/b8f7/0e2a/0d98dd6a1ea259209e5b715734ee5a22?Expires=1653868800&Signature=MY~Ls5FR2QCHCNv4hF7wQaNTOvEjbXcV84ffnRwsbhlsaQyciHvFyV9FsLq415uH2x5B5JfzvCDIAIox9hqX5Gxd6iD9YgTRuxUZ6GPEFnfs-534pbe-yVei0uU44leTGQe4JrCtU~oMd2d5W4vqg-MOh-oMJMpCCDCluIOD4TY4~0sGaHJHeJ8STOzxGhvNWXqcxg3VmRjmswrlMjVla1Y0jepIqJemfnkXmBnmoXo6Sr87jnSbYhiX5MOHfp6X6Iv2J5vBsl2tg1cu8c1UqlX~kOwXY1LNQBESmzgO1yOEcO3N9xpitZ1~xcJn9XHMAQDo8RtobOC4M1RNlhIMcA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                            alt="hazelnut-latte" class="hazelnut-latte-pict"></div>
+                    <div class="custom-favorite-name">Hazelnut Latte</div>
+                    <div class="custom-favorite-list">
+                        <p><img src="assets/images/Vectorsimplecheck.png" alt="simple-check">Hazelnut Syrup</p>
+                        <p><img src="assets/images/Vectorsimplecheck.png" alt="simple-check">Vanilla Whipped Cream</p>
+                        <p><img src="assets/images/Vectorsimplecheck.png" alt="simple-check">Ice / Hot</p>
+                        <p><img src="assets/images/Vectorsimplecheck.png" alt="simple-check">Sliced Banana on Top</p>
+                    </div>
+                    <div class="custom-favorite-price">IDR 25.000</div>
+                    <div class="custom-favorite-button">Order Now</div>
+                </div>
+                <div class="custom-favorite-menu-card col">
+                    <div class="custom-favorite-picture"><img
+                            src="https://s3-alpha-sig.figma.com/img/1195/e3b7/a63f096d3edcb57b0bc937039acae071?Expires=1653868800&Signature=Zd~gwc-473VFDds9EFsYwEPK0j0DmZ0Gf6ORbB-hNu3fddLK2RMVGyN4kuY9qnwqYT7aKPm6zrO9SkMoM6H1AmAJm9H1Oz8eD9WCB8jjnobkQdkQBSeFeyHhCmDY78fn9HCrRSUWjQz854R8VDTg4mVUPR8ijRFgT3x8CL6PkbbjmZxgN4qu0U~qDnMmp1pd5DutO2J8KbQDhf3gUTrRtvn3oR68lFU9QV~ukF3FbQeJluoujthaWgx~lbuJamVCffXQ1kw2xm1pqsHjsTMakxHlP5vLtAmrrwnEfCUpXTa1QWIQhJDNcGBlqZxSuBegkyrUgeL-NUgpPyvIdwnBuw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                            alt="pinky-promise" class="pinky-promise-pict"></div>
+                    <div class="custom-favorite-name">Pinky Promise</div>
+                    <div class="custom-favorite-list">
+                        <p><img src="assets/images/Vectorsimplecheck.png" alt="simple-check"> 1 Shot of Coffee</p>
+                        <p><img src="assets/images/Vectorsimplecheck.png" alt="simple-check"> Vanilla Whipped Cream</p>
+                        <p><img src="assets/images/Vectorsimplecheck.png" alt="simple-check"> Chocolate Biscuits</p>
+                        <p><img src="assets/images/Vectorsimplecheck.png" alt="simple-check"> Strawberry Syrup</p>
+                        <p><img src="assets/images/Vectorsimplecheck.png" alt="simple-check"> Sliced strawberry on Top
+                        </p>
+                    </div>
+                    <div class="custom-favorite-price">IDR 30.000</div>
+                    <div class="custom-favorite-button">Select</div>
+                </div>
+                <div class="custom-favorite-menu-card-selected col">
+                    <div class="custom-favorite-picture"><img
+                            src="https://s3-alpha-sig.figma.com/img/01c2/516d/130f4255d3fd6c5a42948d74ac2a14f4?Expires=1653868800&Signature=UVNXhvfL9gyOpKOCkpHG9uR~YgGw0mi~T8nBvb1h1qStaBbPEwUJA7sPzhr3-zdy1g4YRFkE9VaY62i68Jmyncih0yfKFVh1BvZh20VgR5W5TSTKk5xt8gCqoypfEWkUH4awbp-6iv45w~ABinwjPZ8jxmtO8hcN-RD5~VqBjJ9THLWhWqG~vE6Zip9a8lCuZEwfXrUdSKEcbglfxQnUFYfcRZLnkH2JTy2R9Nft~jDGheV9d9xOjbUnYPjiUjsIdD~iuW88a0gvLXbs8DIH21jLxG4uvrz6RLwNXwhO41L5zMrhGlLR4-d~wxjLpdZSGx8dCp~IMlflF-ZEZH5c2Q__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                            alt="chicken-wings" class="chicken-wings-pict"></div>
+                    <div class="custom-favorite-name">Chicken Wings</div>
+                    <div class="custom-favorite-list">
+                        <p><img src="assets/images/Vectorsimplecheck.png" alt=""> Wings</p>
+                        <p><img src="assets/images/Vectorsimplecheck.png" alt=""> Drum Sticks</p>
+                        <p><img src="assets/images/Vectorsimplecheck.png" alt=""> Mayonaise and Lemon</p>
+                        <p><img src="assets/images/Vectorsimplecheck.png" alt=""> Hot Fried</p>
+                        <p><img src="assets/images/Vectorsimplecheck.png" alt=""> Secret Recipe</p>
+                        <p><img src="assets/images/Vectorsimplecheck.png" alt=""> Buy 1 Get 1 only for Dine in</p>
+                    </div>
+                    <div class="custom-favorite-price">IDR 40.000</div>
+                    <div class="custom-favorite-button-selected">Select</div>
+                </div>
+            </div>
+        </div>
+        <div class="custom-store-loc">
+            <div class="custom-store-loc-title">Visit Our Store in the Spot on the Map Below</div>
+            <div class="custom-store-loc-paragraph">See our store in every city on the spot and spen your good day
+                there. See you soon!</div>
+            <div class="custom-store-map"><img src="assets/images/world-map.PNG" alt=""></div>
+        </div>
+        <div class="custom-main-title">Our Partner</div>
+        <div class="row custom-partner-logo">
+            <div class="col"><img
+                    src="https://s3-alpha-sig.figma.com/img/fbb6/95dd/8c01553b064b0be13807f8af91e5941b?Expires=1653868800&Signature=ZpXP20WnLcPJyhQTJfK3gCf~tyhGDVHNVZW~Db3MqsmAK6Alkm35pBZ~j9yUkr19VXF7VbPmaa0JEbfP-T2RCzQDCzod3D8YNIvZZAKwCkkEncM5LKsqiprxLuFGv1i4Ad17275tE1cO3QhDa~x3sCaP90bxWb4U7bToomTpOGb1Ps6P1yxLEGA7KIevte2IzPLMHQcuOWOCJXbUu7dwj7nvl2a8DAxkiBpFI3hsvrMnvEBhn5Fw8MhlGl4H0G3ifOeMNf33jCVnuLurXibfBE233IAagR~DqF8KotxuXyEchs-cuay0Bizffzh4~LnxHFwbwZdKZsA0aNeWwF3IfA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                    alt="netflix" class="custom-partner-logo-netflix"></div>
+            <div class="col custom-partner-logo-img"><img
+                    src="https://s3-alpha-sig.figma.com/img/e7e9/7f2a/15a82cbac8fde655da7a0b48b4a0d093?Expires=1653868800&Signature=VHKVr5jJxjicv0ir95MhzQa0b3onwN0DSDimJmTIcDGIv0u-7ocwDvrEedRpYUPl0cymA7JGaNr2NsBpxwtJ7RXKglTL7mT6nN-bT1BN54YPHnpaC4dp3JF8Y2bXNMUyQo1HVthpPmrHjsnR~B245SOna-tWjvVFwNR3ON-NzyRATy1ldP19S~R0~ElvGmnMFmz7D4kD7awZu4JW3HsDmR0vXUdC4w8mgHvTjDgJ1UoTIkNlkgn9wjhySzhTkDs114W-p7SESM02L3ng0dDA50raltx9bb5MEn~Uju12cVBfPC3K9dtRzkTVu4qm4qbjP1bk3Z1Nzmqp96P9h33L2A__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                    alt="reddit" class="custom-partner-logo-reddit" style="width: 200px;"></div>
+            <div class="col"><img
+                    src="https://s3-alpha-sig.figma.com/img/9b3d/1bce/29eea1a4afb6e717243bc96076cc6750?Expires=1653868800&Signature=UJDvP098ZZMNWW58kNeI-jM4riD0wrpkQUA3pZJT17uAEF0jppWIb8KG6icuUD7X-CtFdUyZcfx6gcBuXNevPiRCpp1KsEeWByFaetGlTdXBCWGX7siOAgY4xBIlPt5~FCp6Mhk-QZZ37fPSI~AhnANYLfZiMeQy5lc4a5tPGkbrbVqB8FUtU-u1tBN-Y9IGE9hj1TFSeFyjPz-J5HcSXyysv1yNxn4-ltijTGeUt0UG44PyGhtgR1103yU57c00iwTwxH9LidNR64FMNWFIA6Sk8a6fdsYTDuc~xNeww97sUl0EjjYX4vD4WFhNyqEGh4iE33Qaxr1A2dF-M0exGw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                    alt="amazon" class="custom-partner-logo-amazon"></div>
+            <div class="col custom-partner-logo-img"><img
+                    src="https://s3-alpha-sig.figma.com/img/2607/51ed/f193c9a610ba070a7eab9958624aa513?Expires=1653868800&Signature=F5oQRskzbTSUmw7W5nCiYA36HmFdGJEd6H79NyuMFEkYqgQvuON0Hylcp4pm99DC4~z0rp4GFpZeLoJ5ZhBc-04zAGaZ5Q5w-q9dFpCcgChK-0xhDqnw5jx2i7cWmwvqkZ9fnExC8q~wlqjVGq-GcXBI6lvAvPYmAnTbkcvNdF9x~y4pGS0zlcTMYFrUhC8CahHFqaOFuxG4oWMen6nBeNrukVd1B7Thx4dH-XDerS9C5L6fLPJ22~IEz7sCUZmPdtR5JYOUxsCzVaCJPVpE77r6yakTZbvn0BIcqreWe1dxg41cigHtO6qaSVG3fEgJ9QbdDGY5D0ZofcIe3ahwZQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                    alt="discord" class="custom-partner-logo-discord" style="width: 200px;"></div>
+            <div class="col custom-partner-logo-img"><img
+                    src="https://s3-alpha-sig.figma.com/img/0b7c/a72d/624c77047ed5c2b5194caf5e5e1a00f2?Expires=1653868800&Signature=KUNgbumdaNdhAY7OdDphCCYl33EeGYgCsj~Tmq5JynHFNuOOD1nIHfdArd5WWFBJD0e3UbuOqriJ2YfUaojl8BYPKcufLv~ak1~2TzuY19KXlluAV2WyWjNWz8O08xVgC9wl-EYVCqB4FaoRMt6NNaov-MgqPJ4RZWLoU6yvk3iMwQlwr4OBGuZ36pc2sgFT~f~NuQ426FFEICZQ05ujVMb~B0qCsfLxJk6xH1BrpUk3-bROxF6fmT41ucKFcI9~9smI-ovYv4KEuptK-aLObA0GQn6i2sDqQPljPB4vwMa2YDBXqwGxy5eslIu9XVn0R1uHUMrof8UyYPLwf1woAg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                    alt="spotify" class="custom-partner-logo-spotify" style="width: 200px;"></div>
+        </div>
+        <div class="custom-testimony">
+            <div class="custom-testimony-title">Loved by Thousands of Happy Customer</div>
+            <div class="custom-testimony-paragraph">These are the stories of our customers who have visited us with
+                great pleasure.</div>
 
+        </div>
+        <div class="row custom-review">
+            <div class="col custom-review-card-selected">
+                <div class="row custom-review-identity">
+                    <div class="col-2 custom-review-profpict"><img
+                            src="https://s3-alpha-sig.figma.com/img/7b52/c50d/64efec4c75c3e34f6408021730b20d9a?Expires=1653868800&Signature=hh1vMBcO1O5K31CsTU61YSmDl1MWncu4SVy~r-qgoFP6MugXuyVkYz83bLlPx~uPSHxSuI-hvZRK1llvoGRGYF2aJ0LMFeDqYX~qJNuGe8sIZ3QdATeANSvfBEs5u6Ozmv~bk6GErC9mq~uc5MvCimlKxbwmtqmh7St1NBYXYv196hIF8aJZSByAr1FE~gz8uS8Ta~sSQynus0lKstUwwIKyA-7vMnmedpfih7xP5SM2ESmDW4WTQs68Q6cJVIDrF1TTIxhq~Z0rKsLQS8ovKHa5OxjaZWab0Wl9NcGAX~8ZRiY6mA-MvqoNDDHHrtVB-cygJiM8XHMUIno4udcQJw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                            alt="viezh-robert" class="custom-review-profpict-viezh"></div>
+                    <div class="col-8">
+                        <div class="custom-review-name">Viezh Robert</div>
+                        <div class="custom-review-from">Warsaw, Poland</div>
+                    </div>
+                    <div class="col-2 custom-review-rating">4.5 <img src="assets/images/Vectorstar.png" alt=""></div>
+                </div>
+                <div class="custom-review-testimony">"Wow... I am very happy to spend my whole day here. the Wi-fi is
+                    good, and the coffee and meals tho. I like it here!! Very recommended!</div>
+            </div>
+            <div class="col custom-review-card">
+                <div class="row custom-review-identity">
+                    <div class="col-2 custom-review-profpict"><img
+                            src="https://s3-alpha-sig.figma.com/img/4efc/2b65/3098956f84b1822f2eb7e8ed84a31750?Expires=1653868800&Signature=QAm0Vh6SoJnGaCMC3oPRebw89v8gT9girJGCIHItoOpFwF1MdfugpuRRShBRO6ANu6NeA4yvQayi~SMyUu7SOlRoOhaBClIaZpuiixtyhad0oFLy2XAgo30HYrMllkIbfpyeozS8Z2Yics7uyb26AY9kyaMOYXKbeZ3FTcGTJ7UUZYvlcgYmgFNQxX2FDmkumf83ARdcOtLfekDy9RwDqOXIiDcy9z1XaPeoukonNw16GJYj79DHYhRwBKYFLfEJycd5M46wu-MaL4g3LjkE0VK~FP~Q~U1PNNJ8U~YnZoVYaAMxr88UvFfivPBlyNdXavnLLNGGQelEtM-~QxlM6A__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                            alt="yessica" class="custom-review-profpict-viezh"></div>
+                    <div class="col-8">
+                        <div class="custom-review-name">Yessica Christy</div>
+                        <div class="custom-review-from">Shanxi, China</div>
+                    </div>
+                    <div class="col-2 custom-review-rating">4.5 <img src="assets/images/Vectorstar.png" alt=""></div>
+                </div>
+                <div class="custom-review-testimony">"I like it because I like to travel far and still can make my day
+                    better just by drinking their Hazelnut Latte</div>
+            </div>
+            <div class="col custom-review-card">
+                <div class="row custom-review-identity">
+                    <div class="col-2 custom-review-profpict"><img
+                            src="https://s3-alpha-sig.figma.com/img/b0e0/b9a7/2a3108aed3c607327c6c1eb79c47366c?Expires=1653868800&Signature=biazz0F~UDDVdjykRn7taPrjRcF5UsNFEDJjtrDezJREsJHMIFDIMkkH9ru22ZHVCAX--mFA8RuGMbGDKjZfc2LjuMbwPWhoVZj2wnnliKwWv0M~Ol~9HfgepOxW3UJGYYGdRgfhQelh~AoH6hG53DFRG7XiHY4L5Lfa0iB56CWl3ZvB8cw-tNMY9M4q3RwBuWHXoZGGpBwMvgWrDk~pQFLtdzZibiOyhclSBF7iObq8QhYMs8rJ-LjaIV5Zob3BcJ5xnvHzA9zApjmN9hW1Xxg6gSvEIkunkQXByc2YHNxNf2FX-p2LUqr~fJUZX789Kz43UY95ZMn9ectxTGIQOA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                            alt="yessica" class="custom-review-profpict-viezh"></div>
+                    <div class="col-8">
+                        <div class="custom-review-name">Kim Young Jou</div>
+                        <div class="custom-review-from">Seoul, South Korea</div>
+                    </div>
+                    <div class="col-2 custom-review-rating">4.5 <img src="assets/images/Vectorstar.png" alt=""></div>
+                </div>
+                <div class="custom-review-testimony">"This is very unusual for my taste, I haven't liked coffee before
+                    but their coffee is the best! and yup, you have to order the chicken wings, the best in town!</div>
+            </div>
+            <div class="row">
+                <div class="col custom-long"></div>
+                <div class="col custom-bullet"></div>
+                <div class="col custom-bullet"></div>
+                <div class="col custom-bullet"></div>
+                <div class="col-1">
+                    <div class="custom-leftarrow">
+                        <img src="assets/images/Vectorleftarrow.png" alt="">
+                    </div>
+
+                </div>
+                <div class="col-1">
+                    <div class="custom-rightarrow">
+                        <img src="assets/images/Vectorrightarrow.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>Check our promo today</div>
+    </main>
+    <footer>
+        <div class="row footer-flex-container">
+            <div class="col footer-flex-item">
+                <h6 class="coffeeshop-logo"><img src="assets/images/coffee logo.png" alt="logo"
+                        style="width: 30px;">Coffee Shop</h6>
+                <p class="coffeeshop-footer-text">Coffee Shop is a store that sells some good meals, and especially
+                    coffee. We provide high
+                    quality
+                    beans</p>
+                <img src="assets/images/facebook vector.png" alt="facebook">
+                <img src="assets/images/twitter vector.png" alt="twitter">
+                <img src="assets/images/ig vector.png" alt="instagram">
+                <p class="copyright">&#169;2020CoffeeStore</p>
+            </div>
+            <div class="row col footer-flex-item-right">
+                <div class="col footer-list">
+                    <h6 class="footer-list-header">Product</h6>
+                    <div class="footer-list-item">
+                        <p>Download</p>
+                        <p>Locations</p>
+                        <p>Blog</p>
+                        <p>Pricing</p>
+                        <p>Countries</p>
+
+                    </div>
+                </div>
+                <div class="col footer-list">
+                    <h6 class="footer-list-header">Engage</h6>
+                    <div class="footer-list-item">
+                        <p>Coffee Shop</p>
+                        <p>FAQ</p>
+                        <p>Term of Service</p>
+                        <p>About Us</p>
+                        <p>Privacy Policy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

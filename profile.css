@@ -1,9 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+}
+
 .nav-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 80%;
     height: 120px;
-    padding: 0% 5%;
+    margin: 0% 10%;
     align-items: center;
     /* background-color: antiquewhite; */
 }
@@ -25,21 +35,51 @@
     font-weight: 400;
     line-height: 19px;
     letter-spacing: 0em;
-    text-align: left;
+    text-align: center;
 
-    width: 350px;
+    width: 40%;
+}
+
+.nav-list ul {
     display: flex;
+}
+
+.nav-list li {
+    display: inline;
+    margin: 0px 20px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+
+    color: #4F5665;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #4F5665;
+}
+
+.nav-list a:hover {
+    font-weight: bold;
+
+    color: #6A4029
+}
+
+.nav-icon {
+    display: flex;
+    width: 15%;
     justify-content: space-between;
 }
 
 .mini-photo {
-    /* clip-path: circle(); */
-    /* border: 3px solid #6A4029;
-    border-radius: 50%; */
-    filter: drop-shadow(0px 6px 20px rgba(106, 64, 41, 0.8));
+    filter: drop-shadow(0px 3px 20px rgba(106, 64, 41, 0.8));
     width: 30px;
     height: 30px;
     object-fit: cover;
+    border: 2px solid #6A4029;
     border-radius: 50%;
     object-position: 100% 20%;
 }
@@ -49,6 +89,20 @@
     display: flex;
     flex-direction: column;
     padding-bottom: 100px;
+}
+
+.user-profile {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    color: #FFFFFF;
+    margin-left: 10%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+    text-shadow: 0px 6px 8px rgba(255, 255, 255, 0.26);
 }
 
 
@@ -75,7 +129,6 @@
     object-fit: cover;
     border-radius: 50%;
     object-position: 100% 20%;
-    /* clip-path: circle(); */
 }
 
 .profile-text {
@@ -104,7 +157,21 @@
     line-height: 23px;
     text-align: center;
     color: #6A4029;
+    cursor: pointer;
 
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -o-user-select: none;
+}
+
+.choose-button:hover {
+    background-color: #fcaf16;
+}
+
+.choose-button:active {
+    background-color: #FFBA33;
 }
 
 .remove-button {
@@ -124,6 +191,21 @@
     line-height: 23px;
     text-align: center;
     color: #FFFFFF;
+    cursor: pointer;
+
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -o-user-select: none;
+}
+
+.remove-button:hover {
+    background-color: #552d17;
+}
+
+.remove-button:active {
+    background-color: #6A4029;
 }
 
 .editpass-button {
@@ -145,6 +227,22 @@
     line-height: 27px;
 
     color: #6A4029;
+    cursor: pointer;
+
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -o-user-select: none;
+}
+
+.editpass-button:hover {
+    background-color: #e9e6e6;
+}
+
+.editpass-button:active {
+    background: #FFFFFF;
+    border: 1px solid #9F9F9F;
 }
 
 .save-change-text {
@@ -157,9 +255,6 @@
     margin: 30px;
 
     color: #6A4029;
-    /* 
-    border: 0.5px solid #FFFFFF;
-    text-shadow: 0px 6px 9px rgba(255, 255, 255, 0.21); */
 }
 
 .save-change-button {
@@ -180,6 +275,21 @@
     line-height: 27px;
 
     color: #FFFFFF;
+    cursor: pointer;
+
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -o-user-select: none;
+}
+
+.save-change-button:hover {
+    background-color: #552d17;
+}
+
+.save-change-button:active {
+    background-color: #6A4029;
 }
 
 .cancel-change-button {
@@ -201,6 +311,21 @@
     line-height: 27px;
 
     color: #6A4029;
+    cursor: pointer;
+
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -o-user-select: none;
+}
+
+.cancel-change-button:hover {
+    background-color: #fcaf16;
+}
+
+.cancel-change-button:active {
+    background-color: #FFBA33;
 }
 
 .logout-button {
@@ -222,6 +347,22 @@
     line-height: 27px;
 
     color: #6A4029;
+    cursor: pointer;
+
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -o-user-select: none;
+}
+
+.logout-button:hover {
+    background-color: #e9e6e6;
+}
+
+.logout-button:active {
+    background: #FFFFFF;
+    border: 1px solid #9F9F9F;
 }
 
 .form-card {
@@ -231,7 +372,8 @@
     background: #FFFFFF;
     box-shadow: 0px 6px 20px 0px #00000038;
     border-radius: 10px;
-    padding: 20px 20px 70px 30px
+    padding: 20px 20px 70px 30px;
+    border-bottom: 12px solid #6A4029;
 }
 
 .form-row {
@@ -299,17 +441,148 @@ input[type="text"] {
     width: 170px;
 }
 
+.malefemale {
+    display: flex;
+    justify-content: center;
+}
+
+.radio-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.radio-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 3px;
+    left: 0px;
+    height: 15px;
+    width: 15px;
+    background-color: #FFFFFF;
+    border: 4px solid #9F9F9F;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.radio-container:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a yellow background */
+.radio-container input:checked~.checkmark {
+    background-color: #FFBA33;
+    border: 5px solid #6A4029;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radio-container input:checked~.checkmark:after {
+    display: block;
+}
+
+
+/* Style the indicator (dot/circle) */
+/* .radio-container .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+} */
+
 /* footer */
 footer {
-
+    width: 100%;
     background-color: #F8F8F8;
 }
 
-.footer-flex-container{
+.footer-flex-container {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10%;
 }
 
-.footer-flex-item{
+.footer-flex-item {
+    width: 30%;
+}
+
+
+.footer-flex-item,
+.footer-flex-item-right {
+    /* flex: 1; */
+    margin: 50px 0px;
+    align-self: center;
+    padding-left: 20px;
+}
+
+.coffeeshop-footer-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
+
+
+    color: #4F5665;
+}
+
+.copyright {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 20px;
+
+    color: #AFB5C0;
+}
+
+.footer-flex-item-right {
+    /* flex: 1; */
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-list {
     flex: 1;
+}
+
+.footer-list-item {
+    margin-top: 10px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #4F5665;
+}
+
+.footer-list-header {
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+
+    color: #0B132A;
 }

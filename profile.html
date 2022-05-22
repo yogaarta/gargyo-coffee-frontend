@@ -9,7 +9,8 @@
     <!-- start gfonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Rubik:wght@300;400;500&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Rubik:wght@300;400;500;700&display=swap"
         rel="stylesheet">
     <!-- end gfonts -->
     <title>Profile</title>
@@ -23,10 +24,12 @@
                     Coffee Shop</h6>
             </div>
             <div class="nav-list">
-                <div>Home</div>
-                <div>Product</div>
-                <div>Your Cart</div>
-                <div>History</div>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Product</a></li>
+                    <li><a href="">Your Cart</a></li>
+                    <li><a href="">History</a></li>
+                </ul>
             </div>
             <div class="nav-icon">
                 <img src="assets/images/Magn Glass Vector.png" alt="magnifying-glass" style="width: 30px;">
@@ -37,7 +40,7 @@
     </header>
     <main class="main">
         <div>
-            <h3>User Profile</h3>
+            <h3 class="user-profile">User Profile</h3>
         </div>
         <div class="main-card">
             <div class="profile-card">
@@ -63,7 +66,8 @@
                     <div class="form-row">
                         <div class="label-input">
                             <label for="email">Email Address:</label>
-                            <input type="text" name="email" id="email" placeholder="Enter email address" class="input-left">
+                            <input type="text" name="email" id="email" placeholder="Enter email address"
+                                class="input-left">
                         </div>
                         <div class="label-input">
                             <label for="phone">Mobile number:</label>
@@ -72,7 +76,8 @@
                     </div>
                     <div class="label-input">
                         <label for="address">Delivery Address:</label>
-                        <input type="text" name="address" id="address" placeholder="Enter delivery address" class="input-left">
+                        <input type="text" name="address" id="address" placeholder="Enter delivery address"
+                            class="input-left">
                     </div>
                     <div>
                         <h4 class="form-title">Details</h4>
@@ -80,8 +85,8 @@
                     <div class="form-row">
                         <div class="label-input">
                             <label for="display-name">Display Name:</label>
-                            <input type="text" name="display-name" id="display-name"
-                                placeholder="Enter display name" class="input-left">
+                            <input type="text" name="display-name" id="display-name" placeholder="Enter display name"
+                                class="input-left">
                         </div>
                         <div class="label-input">
                             <label for="date">DD/MM/YY</label>
@@ -90,17 +95,23 @@
                     </div>
                     <div class="label-input">
                         <label for="first-name">First Name:</label>
-                        <input type="text" name="first-name" id="first-name" placeholder="Enter first name" class="input-left">
+                        <input type="text" name="first-name" id="first-name" placeholder="Enter first name"
+                            class="input-left">
                     </div>
                     <div class="label-input">
                         <label for="last-name">Last Name:</label>
-                        <input type="text" name="last-name" id="last-name" placeholder="Enter last name" class="input-left">
+                        <input type="text" name="last-name" id="last-name" placeholder="Enter last name"
+                            class="input-left">
                     </div>
-                    <div>
-                        <input type="radio" name="male" id="male">
-                        <label for="male">Male</label>
-                        <input type="radio" name="female" id="female">
-                        <label for="female">Female</label>
+                    <div class="malefemale">
+                        <label class="radio-container">Male
+                            <input type="radio" checked="checked" name="radio">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="radio-container">Female
+                            <input type="radio" name="radio">
+                            <span class="checkmark"></span>
+                        </label>
                     </div>
                 </form>
             </div>
@@ -111,18 +122,19 @@
             <div class="footer-flex-item">
                 <h6 class="coffeeshop-logo"><img src="assets/images/coffee logo.png" alt="logo"
                         style="width: 30px;">Coffee Shop</h6>
-                <p>Coffee Shop is a store that sells some good meals, and especially coffee. We provide high
+                <p class="coffeeshop-footer-text">Coffee Shop is a store that sells some good meals, and especially
+                    coffee. We provide high
                     quality
                     beans</p>
                 <img src="assets/images/facebook vector.png" alt="facebook">
                 <img src="assets/images/twitter vector.png" alt="twitter">
                 <img src="assets/images/ig vector.png" alt="instagram">
-                <p>&#169;2020CoffeeStore</p>
+                <p class="copyright">&#169;2020CoffeeStore</p>
             </div>
-            <div class="footer-flex-item">
+            <div class="footer-flex-item-right">
                 <div class="footer-list">
-                    <h6>Product</h6>
-                    <div>
+                    <h6 class="footer-list-header">Product</h6>
+                    <div class="footer-list-item">
                         <p>Download</p>
                         <p>Locations</p>
                         <p>Blog</p>
@@ -132,8 +144,8 @@
                     </div>
                 </div>
                 <div class="footer-list">
-                    <h6>Engage</h6>
-                    <div>
+                    <h6 class="footer-list-header">Engage</h6>
+                    <div class="footer-list-item">
                         <p>Coffee Shop</p>
                         <p>FAQ</p>
                         <p>Term of Service</p>
@@ -142,9 +154,7 @@
                     </div>
                 </div>
             </div>
-
         </div>
-
     </footer>
 </body>
 

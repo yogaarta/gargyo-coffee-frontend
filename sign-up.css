@@ -1,3 +1,8 @@
+body {
+    max-width: 1440px;
+    height: 1628px;
+}
+
 .global-container {
     display: flex;
 }
@@ -7,8 +12,8 @@ aside {
     border: 5px;
     background-image: url(assets/images/sign\ up\ aside\ img.jpg);
     background-size: cover;
-    width: 988;
-    height: 1628;
+    width: 50%;
+
 }
 
 .aside-img {
@@ -17,6 +22,7 @@ aside {
 
 .main-content {
     flex: 1;
+    max-width: 50%;
 }
 
 .header-container {
@@ -24,9 +30,10 @@ aside {
     flex-direction: row;
     justify-content: space-between;
     height: 70px;
-    width: 505px;
+    /* width: 100%; */
     margin-top: 5%;
     margin-left: 15%;
+    margin-right: 15%;
 
 }
 
@@ -51,6 +58,7 @@ aside {
     display: flex;
     flex-direction: column;
     padding-left: 15%;
+    padding-right: 15%;
 }
 
 .flex-form-container {
@@ -68,7 +76,7 @@ form {
 }
 
 input {
-    width: 505px;
+    width: 100%;
     height: 75px;
     left: 810px;
     top: 238px;
@@ -113,7 +121,7 @@ input[type="password"] {
     font-size: 20px;
     line-height: 25px;
     color: #6A4029;
-    width: 505px;
+    width: 100%;
     height: 75px;
     left: 810px;
     top: 238px;
@@ -127,17 +135,17 @@ input[type="password"] {
     -o-user-select: none;
 }
 
-.signup:hover{
-    background-color:#fcaf16 ;
+.signup:hover {
+    background-color: #fcaf16;
 }
 
-.signup:active{
-    background-color:#FFBA33 ;
+.signup:active {
+    background-color: #FFBA33;
 }
 
 
 .google-button {
-    width: 505px;
+    width: 100%;
     height: 75px;
     left: 810px;
     top: 751px;
@@ -158,7 +166,7 @@ input[type="password"] {
     column-gap: 10px;
     align-items: center;
     padding: 25px;
-    width: 505px;
+    width: 100%;
 }
 
 .have-account-text {
@@ -178,7 +186,7 @@ input[type="password"] {
 }
 
 .login-button {
-    width: 505px;
+    width: 100%;
     height: 75px;
     left: 810px;
     top: 751px;
@@ -205,39 +213,55 @@ input[type="password"] {
     -o-user-select: none;
 }
 
-.login-button:hover{
-    background-color: #965634 ;
+.login-button:hover {
+    background-color: #552d17;
 }
 
-.login-button:active{
-    background-color: #6A4029 ;
+.login-button:active {
+    background-color: #6A4029;
 }
 
 footer {
 
     background-color: #F8F8F8;
+    width: 100%;
 }
 
 .footer-flex-container {
     display: flex;
     flex-direction: row;
-    width: 630px;
+    width: 100%;
     margin-left: 10%;
+    margin-right: 10%;
+    padding-right: 5%;
     justify-content: space-between;
 }
 
 .footer-flex-item {
     flex: 1;
-    margin-top: 85px;
+    margin: 50px 0px;
     width: 40%;
+    align-self: center;
+    padding-left: 20px;
 
 }
 
-.socmed{
-    background-color: #6A4029;
-    border-radius: 50%;
-    width: 32px;
-    height: 32px;
+.coffeeshop-footer-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
+
+
+    color: #4F5665;
+}
+
+.copyright {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 20px;
+
+    color: #AFB5C0;
 }
 
 .footer-list {
@@ -250,4 +274,19 @@ footer {
 
 .footer-list-item>p {
     margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+
+
+    color: #4F5665;
+}
+
+.footer-list-header {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+
+
+    color: #0B132A;
 }
