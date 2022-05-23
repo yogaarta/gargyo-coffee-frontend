@@ -18,10 +18,11 @@
 4. Right click on *index.html* then choose **Open with Live Server** menu.
 
 ## PREVIEW
-
+<div style="display:flex">
 <img src="assets/images/homepage.PNG" style="width: 200px">
 <img src="assets/images/login.PNG" style="width: 200px">
 <img src="assets/images/profile.PNG" style="width: 200px">
+</div>
 
 ## RELATED PROJECT
 [gargyo-coffee-backend](https://github.com/yogaarta/gargyo_coffee.git)
