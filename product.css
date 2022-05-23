@@ -1,0 +1,486 @@
+/* header */
+.custom-nav-container {
+    height: 100px;
+    align-items: center;
+    padding: 0% 7.5%;
+
+    border: 0.5px solid #9F9F9F;
+
+}
+
+.coffeeshop-logo {
+    font-style: bold;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0B132A;
+    margin-bottom: 0;
+}
+
+.custom-nav-list ul {
+    margin-bottom: 0;
+}
+
+.custom-nav-list li {
+    display: inline;
+    margin: 0px 5%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #4F5665;
+}
+
+.custom-active-nav {
+    text-decoration: none;
+    color: #6A4029;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.custom-inactive-nav {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    text-decoration: none;
+    color: #4F5665;
+}
+
+.custom-nav-list a:hover {
+    text-decoration: none;
+    color: #6A4029;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.custom-nav-icon {
+    align-items: center;
+}
+
+.custom-active-nav {
+    text-decoration: none;
+    color: #6A4029;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.custom-search {
+    width: 100px;
+    height: 30px;
+
+    background: #EFEEEE;
+    border-radius: 30px;
+
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 900;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+
+    display: flex;
+    align-items: center;
+
+}
+
+
+.custom-search-img {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+input:active,
+input:focus {
+    outline: none;
+    background: #EFEEEE;
+}
+
+input[type="text"] {
+
+    border: none;
+    background: #EFEEEE;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    width: 100%;
+    /* or 250% */
+    color: #000000;
+    /* border-radius: 50%; */
+}
+
+.mini-photo {
+    filter: drop-shadow(0px 3px 20px rgba(106, 64, 41, 0.8));
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border: 2px solid #6A4029;
+    border-radius: 50%;
+    object-position: 100% 20%;
+}
+
+/* main */
+.custom-promo-column {
+    padding-top: 30px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    border: 0.5px solid #9F9F9F;
+}
+
+.custom-promo-title-head {
+    font-family: Rubik;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #6A4029;
+
+}
+
+.custom-promo-paragraph {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000000;
+
+    margin-bottom: 40px;
+
+}
+
+.custom-promo-card {
+    width: 90%;
+    height: 100px;
+    margin: 30px 5%;
+    border-radius: 20px;
+
+    background-color: aqua;
+}
+
+.mother-day-card {
+    background: #88B788;
+}
+
+.sunday-morning-card {
+    background: #F5C361;
+}
+
+.halloween-card {
+    background: #C59378;
+}
+
+.custom-promo-pict {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.custom-card-text {
+    padding: 10px 0;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.custom-card-info {
+    margin-bottom: 0px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.custom-apply-button {
+    width: 90%;
+    height: 64px;
+    margin: 50px 5%;
+
+    background: #6A4029;
+    border-radius: 20px;
+
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -o-user-select: none;
+}
+
+.custom-apply-button:hover {
+    background-color: #552d17;
+}
+
+.custom-apply-button:active {
+    background-color: #6A4029;
+}
+
+.custom-term-title {
+    font-family: Rubik;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.custom-term {
+    font-family: Rubik;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    margin-top: 100px;
+    margin-left: 5%;
+
+}
+
+/* main product */
+
+.custom-main-product-column {
+    padding-top: 30px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    border: 0.5px solid #9F9F9F;
+}
+
+.custom-product-nav {
+    margin-bottom: 40px;
+}
+
+.custom-product-nav li {
+    display: inline;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    /* identical to box height */
+
+    color: #9F9F9F;
+}
+
+.custom-product-nav-active {
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+    color: #6A4029;
+    border-bottom: 3px solid #6A4029;
+}
+
+.custom-product-nav-inactive {
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    text-decoration: none;
+    color: #9F9F9F;
+}
+
+.custom-product-nav a:hover {
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+    color: #6A4029;
+    border-bottom: 3px solid #6A4029;
+
+}
+
+.custom-food-container {
+    padding: 50px 5%;
+}
+
+.custom-product-row {
+    margin-bottom: 80px;
+}
+
+.custom-product-card-all {
+    display: flex;
+    flex-direction: row;
+}
+
+.custom-product-card {
+    max-width: 160px;
+    height: 200px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 30px 60px rgba(57, 57, 57, 0.1);
+    border-radius: 30px;
+}
+
+.custom-product-name {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    min-height: 65px;
+
+}
+
+.card-img-top,
+.custom-product-info {
+    margin-top: -40px;
+}
+
+.custom-product-price {
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #6A4029;
+}
+
+.custom-notes {
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #6A4029;
+}
+
+/* footer */
+
+footer {
+    background-color: #F8F8F8;
+    padding-top: 100px;
+}
+
+.footer-container {
+    margin: 7.5%;
+}
+
+.coffeeshop-footer-text {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4F5665;
+    margin-top: 20px;
+
+}
+
+.copyright {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 20px;
+    color: #AFB5C0;
+
+}
+
+.footer-list-header {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.footer-list-item {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+@media (max-width:840px) {
+    .custom-nav-container {
+        display: flex;
+
+    }
+
+    .custom-main-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .custom-promo-column {
+        width: 100%;
+    }
+
+    .custom-main-product-column {
+        width: 100%;
+    }
+
+    
+}
+
+@media (max-width: 500px){
+    .custom-product-nav a{
+        font-size: 14px;
+    }
+}
