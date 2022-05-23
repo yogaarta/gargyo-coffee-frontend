@@ -929,3 +929,26 @@ footer {
     text-align: left;
 
 }
+
+@media (max-width:840px) {
+    .custom-banner{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .custom-teamwork{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .custom-teamwork-left{
+        justify-content: center;
+    }
+
+    .custom-teamwork-left img{
+        width: 100%
+        
+    }
+}
