@@ -94,6 +94,11 @@
     -o-user-select: none;
 }
 
+.custom-login-button a{
+    text-decoration: none;
+    color: #0B132A;
+}
+
 .custom-signup-button {
     width: 150px;
     height: 45px;
@@ -119,6 +124,11 @@
     -ms-user-select: none;
     user-select: none;
     -o-user-select: none;
+}
+
+.custom-signup-button a{
+    text-decoration: none;
+    color: #6A4029;
 }
 
 .custom-signup-button:hover {

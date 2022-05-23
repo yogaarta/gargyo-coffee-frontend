@@ -213,6 +213,11 @@ input[type="password"] {
     -o-user-select: none;
 }
 
+.login-button a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
 .login-button:hover {
     background-color: #552d17;
 }
@@ -303,7 +308,7 @@ footer {
         width: 100%;
     }
 
-    .aside-pict{
+    .aside-pict {
         width: 100%;
         min-height: 180px;
     }
