@@ -7,6 +7,7 @@
 
 ![html](https://img.shields.io/badge/html-5-orange)
 ![css](https://img.shields.io/badge/css-3-blue)
+![bootstrap](https://img.shields.io/badge/bootstrap-5-lightgrey)
 
 ## HOW TO INSTALL
 1. Clone this repository.
