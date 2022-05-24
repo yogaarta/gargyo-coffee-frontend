@@ -381,6 +381,23 @@ body {
     flex-direction: row;
 }
 
+.form-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit-bullet{
+    width: 40px;
+    height: 40px;
+    background-color: #6A4029;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 5%;
+}
+
 .form-title {
     font-family: 'Poppins';
     font-style: normal;
@@ -433,12 +450,12 @@ input[type="text"] {
 }
 
 .input-left {
-    width: 250px;
+    width: 300px;
     margin-right: 50px;
 }
 
 .input-right {
-    width: 170px;
+    width: 185px;
 }
 
 .malefemale {
@@ -573,7 +590,7 @@ footer {
     color: #0B132A;
 }
 
-@media (max-width: 880px) {
+@media (max-width: 1000px) {
     .choose-button, .logout-button, .save-change-button, .cancel-change-button, .remove-button,
     .editpass-button {
         width: 80%
@@ -589,7 +606,7 @@ footer {
     }
 
     .input-right{
-        width: 250px;
+        width: 300px;
     }
 }
 
@@ -629,5 +646,9 @@ footer {
         font-weight: 500;
         font-size: 14px;
         line-height: 20px;
+    }
+
+    .nav-list ul{
+        flex-direction: column;
     }
 }

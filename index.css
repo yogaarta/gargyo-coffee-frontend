@@ -94,7 +94,7 @@
     -o-user-select: none;
 }
 
-.custom-login-button a{
+.custom-login-button a {
     text-decoration: none;
     color: #0B132A;
 }
@@ -126,7 +126,7 @@
     -o-user-select: none;
 }
 
-.custom-signup-button a{
+.custom-signup-button a {
     text-decoration: none;
     color: #6A4029;
 }
@@ -931,24 +931,39 @@ footer {
 }
 
 @media (max-width:840px) {
-    .custom-banner{
+    .custom-banner {
         display: flex;
         flex-direction: column-reverse;
     }
 
-    .custom-teamwork{
+    .custom-teamwork {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .custom-teamwork-left{
+    .custom-teamwork-left {
         justify-content: center;
     }
 
-    .custom-teamwork-left img{
+    .custom-teamwork-left img {
         width: 100%
-        
+    }
+
+    .custom-vector-container {
+        justify-content: center;
+    }
+
+    .custom-store-info-number {
+        font-size: 20px;
+        text-align: left;
+
+    }
+
+    .custom-store-info-obj {
+        font-size: 16px;
+        text-align: left;
+
     }
 }
