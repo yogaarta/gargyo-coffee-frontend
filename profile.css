@@ -616,12 +616,15 @@ footer {
         height: 100%;
         padding: 5%;
     }
+    
     .input-left, .input-right{
         width: 80%;
     }
+
     .footer-flex-item-right{
         flex-direction: column;
     }
+
     .coffeeshop-logo {
         font-style: bold;
         font-weight: 700;

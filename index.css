@@ -145,6 +145,7 @@
 
     background-size: cover;
     background-position: 50% 60%;
+    padding-bottom: 50px;
 }
 
 .custom-banner-left {
@@ -217,9 +218,10 @@
 }
 
 .custom-search {
-    width: 314px;
+    width: 50%;
     height: 60px;
     margin-top: 35px;
+    margin-right: 15%;
     float: right;
 
     background: #EFEEEE;
@@ -270,9 +272,10 @@ input[type="text"] {
     font-weight: 400;
     font-size: 17px;
     line-height: 50px;
+    width: 100%;
     /* or 250% */
     color: #000000;
-    border-radius: 50%;
+    border-radius: 30px;
 }
 
 .custom-store-info {
@@ -965,5 +968,43 @@ footer {
         font-size: 16px;
         text-align: left;
 
+    }
+
+    .custom-search {
+        width: 25%;
+    }
+
+    .custom-banner-left {
+        padding-right: 15%;
+        z-index: 2;
+        
+
+    }
+
+    .custom-banner {
+        padding-bottom: 100px;
+    }
+
+    /* .custom-additional-bg{
+        background-color: #000000;
+        opacity: 40%;
+        height: 500px;
+        width: 100%;
+        margin-right: 10%;
+
+        position: relative;
+        margin-top: -470px;
+        z-index: 1;
+    } */
+
+    .custom-store-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 300px;
+        margin-left: 25%;
+        margin-right: 25%;
     }
 }
