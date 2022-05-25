@@ -690,7 +690,7 @@ input[type="text"] {
     width: 400px;
     min-height: 250px;
     padding: 30px;
-    margin: 50px 25px;
+    margin: 50px 1.5%;
 
     background: #FFFFFF;
     border: 2px solid #6A4029;
@@ -701,7 +701,7 @@ input[type="text"] {
     width: 400px;
     min-height: 250px;
     padding: 30px;
-    margin: 50px 25px;
+    margin: 50px 1.5%;
 
     background: #FFFFFF;
     border: 2px solid #DDDDDD;
@@ -937,6 +937,8 @@ footer {
     .custom-banner {
         display: flex;
         flex-direction: column-reverse;
+
+        padding-bottom: 100px;
     }
 
     .custom-teamwork {
@@ -954,9 +956,9 @@ footer {
         width: 100%
     }
 
-    .custom-vector-container {
+    /* .custom-vector-container {
         justify-content: center;
-    }
+    } */
 
     .custom-store-info-number {
         font-size: 20px;
@@ -977,12 +979,8 @@ footer {
     .custom-banner-left {
         padding-right: 15%;
         z-index: 2;
-        
 
-    }
 
-    .custom-banner {
-        padding-bottom: 100px;
     }
 
     /* .custom-additional-bg{
@@ -997,6 +995,11 @@ footer {
         z-index: 1;
     } */
 
+    .custom-teamwork-right {
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+    }
+
     .custom-store-info {
         display: flex;
         flex-direction: column;
@@ -1006,5 +1009,89 @@ footer {
         height: 300px;
         margin-left: 25%;
         margin-right: 25%;
+    }
+
+    .custom-favorite-menu-card,
+    .custom-favorite-menu-card-selected {
+        margin-top: 25px;
+        /* height: 650px; */
+    }
+
+    .custom-store-map img {
+        width: 100%;
+    }
+
+    .custom-promo {
+        width: 80%;
+        height: 230px;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: -100px;
+
+        padding: 20px 2.5%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .custom-promo-title-head {
+        text-align: center;
+    
+    }
+    
+    .custom-promo-title-paragraph {
+        text-align: center;
+    }
+
+    .footer-container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .footer-container .col-7{
+        width: 100%;
+    }
+
+    .footer-flex-item, .footer-flex-item-right{
+        margin-top: 50px;
+    }
+
+}
+
+@media (max-width:435px) {
+    
+    .custom-store-info-number {
+        font-size: 18px;
+        text-align: left;
+
+    }
+
+    .custom-vector{
+        width: 40px;
+        height: 40px;
+    }
+
+    .custom-store-info-obj {
+        font-size: 14px;
+        text-align: left;
+
+    }
+
+    .custom-favorite-menu-card,
+    .custom-favorite-menu-card-selected {
+        height: 650px;
+    }
+
+    .custom-favorite-list {
+        height: 250px;
+
+    }
+
+    .custom-favorite-list p {
+        margin-bottom: 10px;
+    }
+
+    .custom-promo {
+        height: 300px;
+        
     }
 }
